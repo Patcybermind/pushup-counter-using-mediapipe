@@ -1,0 +1,720 @@
+PS C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist> .\main.exe
+[PYI-13712:DEBUG] PyInstaller Bootloader 6.x
+[PYI-13712:DEBUG] LOADER: argv[0]: C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist\main.exe
+[PYI-13712:DEBUG] LOADER: executable file: C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist\main.exe
+[PYI-13712:DEBUG] LOADER: trying to load executable-embedded archive...
+[PYI-13712:DEBUG] LOADER: attempting to open archive C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist\main.exe  
+[PYI-13712:DEBUG] LOADER: cookie found at offset 0x713279
+[PYI-13712:DEBUG] LOADER: archive file: C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist\main.exe
+[PYI-13712:DEBUG] LOADER: application has onefile semantics...
+[PYI-13712:DEBUG] LOADER: _PYI_ARCHIVE_FILE not defined...
+[PYI-13712:DEBUG] LOADER: process level = 0
+[PYI-13712:DEBUG] LOADER: this is parent process of onefile application.
+[PYI-13712:DEBUG] LOADER: initializing security descriptor for temporary directory...
+[PYI-13712:DEBUG] LOADER: initializing security descriptor from string: D:(A;;FA;;;S-1-5-21-1902224453-3766357929-4224657205-1001)
+[PYI-13712:DEBUG] LOADER: creating temporary directory (runtime_tmpdir=(null))...
+[PYI-13712:DEBUG] LOADER: attempting to create temporary application directory under C:\Users\patog\AppData\Local\Temp\
+[PYI-13712:DEBUG] LOADER: created temporary directory: C:\Users\patog\AppData\Local\Temp\_MEI137122
+[PYI-13712:DEBUG] LOADER: application's top-level directory: C:\Users\patog\AppData\Local\Temp\_MEI137122
+[PYI-13712:DEBUG] LOADER: attempting to pre-load system copy of VCRUNTIME140.dll...
+[PYI-13712:DEBUG] LOADER: successfully loaded system copy of VCRUNTIME140.dll.
+[PYI-13712:DEBUG] LOADER: attempting to pre-load system copy of VCRUNTIME140_1.dll...
+[PYI-13712:DEBUG] LOADER: successfully loaded system copy of VCRUNTIME140_1.dll.
+[PYI-13712:DEBUG] LOADER: calling SetDllDirectoryW: C:\Users\patog\AppData\Local\Temp\_MEI137122
+[PYI-13712:DEBUG] LOADER: splash screen is unavailable.
+[PYI-13712:DEBUG] LOADER: extracting files to temporary directory...
+[PYI-13712:DEBUG] LOADER: setting _PYI_APPLICATION_HOME_DIR to C:\Users\patog\AppData\Local\Temp\_MEI137122   
+[PYI-13712:DEBUG] LOADER: starting the child process...
+[PYI-13712:DEBUG] LOADER: setting up child process...
+[PYI-13712:DEBUG] LOADER: child process started!
+[PYI-13712:DEBUG] LOADER: creating hidden window to capture system shutdown events...
+[PYI-11920:DEBUG] PyInstaller Bootloader 6.x
+[PYI-11920:DEBUG] LOADER: argv[0]: C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist\main.exe
+[PYI-13712:DEBUG] LOADER: hidden window created!
+[PYI-11920:[DEBUG] LOADER: executPYIable file-: C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist\main.exe     
+13712:DEBUG] LOADER: entering the waiting loop...
+[PYI-11920:DEBUG] LOADER: trying to load executable-embedded archive...
+[PYI-11920:DEBUG] LOADER: attempting to open archive C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist\main.exe
+[PYI-11920:DEBUG] LOADER: cookie found at offset 0x713279
+[PYI-11920:DEBUG] LOADER: archive file: C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist\main.exe
+[PYI-11920:DEBUG] LOADER: application has onefile semantics...
+[PYI-11920:DEBUG] LOADER: _PYI_ARCHIVE_FILE already defined: C:\Users\patog\OneDrive\Documents\coding\visoneer\test folder\dist\main.exe    
+[PYI-11920:DEBUG] LOADER: using same archive file as parent environment!
+[PYI-11920:DEBUG] LOADER: process level = 1
+[PYI-11920:DEBUG] LOADER: this is child process of onefile application (main application process).
+[PYI-11920:DEBUG] LOADER: application's top-level directory: C:\Users\patog\AppData\Local\Temp\_MEI137122
+[PYI-11920:DEBUG] LOADER: calling SetDllDirectoryW: C:\Users\patog\AppData\Local\Temp\_MEI137122
+[PYI-11920:DEBUG] LOADER: splash screen is unavailable.
+[PYI-11920:DEBUG] LOADER: loading Python shared library: C:\Users\patog\AppData\Local\Temp\_MEI137122\python313.dll
+[PYI-11920:DEBUG] LOADER: loaded functions from Python shared library.
+[PYI-11920:DEBUG] LOADER: pre-initializing embedded python interpreter...
+[PYI-11920:DEBUG] LOADER: creating PyConfig structure...
+[PYI-11920:DEBUG] LOADER: initializing interpreter configuration...
+[PYI-11920:DEBUG] LOADER: setting program name...
+[PYI-11920:DEBUG] LOADER: setting python home path...
+[PYI-11920:DEBUG] LOADER: setting module search paths...
+[PYI-11920:DEBUG] LOADER: setting sys.argv...
+[PYI-11920:DEBUG] LOADER: applying run-time options...
+[PYI-11920:DEBUG] LOADER: starting embedded python interpreter...
+import _frozen_importlib # frozen
+import _imp # builtin
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import 'winreg' # <class '_frozen_importlib.BuiltinImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'nt' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+# installing zipimport hook
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+import 'zipimport' # <class '_frozen_importlib.FrozenImporter'>
+# installed zipimport hook
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\encodings\\__init__.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <class '_frozen_importlib.FrozenImporter'>
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\encodings\\aliases.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8613A210>
+import 'encodings' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E860B5400>
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\encodings\\utf_8.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8613A350>
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\encodings\\cp1252.pyc'
+import 'encodings.cp1252' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86129CD0>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+import '_abc' # <class '_frozen_importlib.BuiltinImporter'>
+import 'abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'io' # <class '_frozen_importlib.FrozenImporter'>
+[PYI-11920:DEBUG] LOADER: setting sys._MEIPASS
+[PYI-11920:DEBUG] LOADER: importing modules from PKG/CArchive
+[PYI-11920:DEBUG] LOADER: extracted struct
+[PYI-11920:DEBUG] LOADER: running unmarshalled code object for module struct...
+import '_struct' # <class '_frozen_importlib.BuiltinImporter'>
+[PYI-11920:DEBUG] LOADER: extracted pyimod01_archive
+[PYI-11920:DEBUG] LOADER: running unmarshalled code object for module pyimod01_archive...
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <class '_frozen_importlib.FrozenImporter'>
+import '_collections_abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'genericpath' # <class '_frozen_importlib.FrozenImporter'>
+import '_winapi' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ntpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'os' # <class '_frozen_importlib.FrozenImporter'>
+import 'zlib' # <class '_frozen_importlib.BuiltinImporter'>
+[PYI-11920:DEBUG] LOADER: extracted pyimod02_importers
+[PYI-11920:DEBUG] LOADER: running unmarshalled code object for module pyimod02_importers...
+[PYI-11920:DEBUG] LOADER: extracted pyimod03_ctypes
+[PYI-11920:DEBUG] LOADER: running unmarshalled code object for module pyimod03_ctypes...
+[PYI-11920:DEBUG] LOADER: extracted pyimod04_pywin32
+[PYI-11920:DEBUG] LOADER: running unmarshalled code object for module pyimod04_pywin32...
+[PYI-11920:DEBUG] LOADER: looking for PYZ archive TOC entry...
+[PYI-11920:DEBUG] LOADER: path to PYZ archive stored into sys._pyinstaller_pyz...
+[PYI-11920:DEBUG] LOADER: running pyiboot01_bootstrap.py
+PyInstaller: inserting our finder hook at index 1 in sys.path_hooks.
+PyInstaller: running path finder hook for path: 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122'
+PyInstaller: hook succeeded
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='ctypes', target='ctypes'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'ctypes' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: None.
+[PYI-11920:DEBUG] LOADER: running pyi_rth_inspect.py
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='inspect', target='inspect'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'inspect' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='inspect', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8612B820>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\inspect.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\inspect.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='ast', target='ast'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'ast' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='ast', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861ECB90>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\ast.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\ast.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='re', target='re'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 're' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='re', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861D8270>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\__init__.pyc', submodule_search_locations=['C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re']).
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\__init__.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='enum', target='enum'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'enum' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='enum', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861D9E10>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\enum.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\enum.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='functools', target='functools'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'functools' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='functools', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8622E250>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\functools.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\functools.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='collections', target='collections'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'collections' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='collections', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8622EC50>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\collections\\__init__.pyc', submodule_search_locations=['C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\collections']).
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\collections\\__init__.pyc'
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='keyword', target='keyword'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'keyword' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='keyword', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86253D40>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\keyword.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\keyword.pyc'
+import 'keyword' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86253D40>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='operator', target='operator'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'operator' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='operator', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86253F20>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\operator.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\operator.pyc'
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86253F20>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='reprlib', target='reprlib'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'reprlib' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='reprlib', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8627D630>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\reprlib.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\reprlib.pyc'
+import 'reprlib' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8627D630>
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8622EC50>
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+import 'functools' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8622E250>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='types', target='types'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'types' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='types', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861FF690>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\types.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\types.pyc'
+import 'types' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861FF690>
+import 'enum' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861D9E10>
+PyInstaller: running path finder hook for path: 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re'
+PyInstaller: hook succeeded
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: called with fullname='re._compiler', target='re._compiler'     
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: 're._compiler' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: fallback finder returned spec: ModuleSpec(name='re._compiler', 
+loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861EB380>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\_compiler.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\_compiler.pyc'
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: called with fullname='re._parser', target='re._parser'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: 're._parser' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: fallback finder returned spec: ModuleSpec(name='re._parser', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E860C7950>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\_parser.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\_parser.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: called with fullname='re._constants', target='re._constants'   
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: 're._constants' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: fallback finder returned spec: ModuleSpec(name='re._constants', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E860C7F50>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\_constants.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\_constants.pyc'
+import 're._constants' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E860C7F50>
+import 're._parser' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E860C7950>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: called with fullname='re._casefix', target='re._casefix'       
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: 're._casefix' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\re): find_spec: fallback finder returned spec: ModuleSpec(name='re._casefix', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86269860>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\_casefix.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\re\\_casefix.pyc'
+import 're._casefix' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86269860>
+import 're._compiler' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861EB380>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='copyreg', target='copyreg'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'copyreg' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='copyreg', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86269B20>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\copyreg.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\copyreg.pyc'
+import 'copyreg' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86269B20>
+import 're' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861D8270>
+import '_ast' # <class '_frozen_importlib.BuiltinImporter'>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='contextlib', target='contextlib'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'contextlib' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='contextlib', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86562C10>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\contextlib.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\contextlib.pyc'
+import 'contextlib' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86562C10>
+import 'ast' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861ECB90>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='dis', target='dis'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'dis' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='dis', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8621D6D0>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\dis.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\dis.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='opcode', target='opcode'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'opcode' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='opcode', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86266690>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\opcode.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\opcode.pyc'
+import '_opcode' # <class '_frozen_importlib.BuiltinImporter'>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='_opcode_metadata', target='_opcode_metadata'PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: '_opcode_metadata' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='_opcode_metadata', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8657D850>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_opcode_metadata.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_opcode_metadata.pyc'
+import '_opcode_metadata' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8657D850>
+import 'opcode' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86266690>
+import 'dis' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8621D6D0>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='importlib', target='importlib'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'importlib' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='importlib', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8657F550>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\importlib\\__init__.pyc', submodule_search_locations=['C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\importlib']).
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\importlib\\__init__.pyc'
+import 'importlib' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8657F550>
+import 'importlib.machinery' # <class '_frozen_importlib.FrozenImporter'>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='linecache', target='linecache'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'linecache' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='linecache', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E864FF380>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\linecache.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\linecache.pyc'
+import 'linecache' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E864FF380>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='tokenize', target='tokenize'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'tokenize' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='tokenize', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E864FF2A0>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\tokenize.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\tokenize.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='token', target='token'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'token' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='token', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8654AF90>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\token.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\token.pyc'
+import 'token' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8654AF90>
+import '_tokenize' # <class '_frozen_importlib.BuiltinImporter'>
+import 'tokenize' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E864FF2A0>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='weakref', target='weakref'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'weakref' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='weakref', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8654B830>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\weakref.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\weakref.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='_weakrefset', target='_weakrefset'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: '_weakrefset' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='_weakrefset', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8654BE30>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_weakrefset.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_weakrefset.pyc'
+import '_weakrefset' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8654BE30>
+import 'weakref' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8654B830>
+import 'inspect' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E8612B820>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='zipfile', target='zipfile'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'zipfile' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='zipfile', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861DE570>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile\\__init__.pyc', submodule_search_locations=['C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile']).
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile\\__init__.pyc'
+import 'binascii' # <class '_frozen_importlib.BuiltinImporter'>
+PyInstaller: running path finder hook for path: 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\importlib'
+PyInstaller: hook succeeded
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\importlib): find_spec: called with fullname='importlib._abc', target='importlib._abc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\importlib): find_spec: 'importlib._abc' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\importlib): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\importlib').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\importlib): find_spec: fallback finder returned spec: ModuleSpec(name='importlib._abc', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E867F74D0>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\importlib\\_abc.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\importlib\\_abc.pyc'
+import 'importlib._abc' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E867F74D0>
+import 'importlib.util' # <class '_frozen_importlib.FrozenImporter'>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='shutil', target='shutil'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'shutil' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='shutil', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E867F7470>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\shutil.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\shutil.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='fnmatch', target='fnmatch'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'fnmatch' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='fnmatch', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E867F7D70>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\fnmatch.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\fnmatch.pyc'
+import 'errno' # <class '_frozen_importlib.BuiltinImporter'>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='posix', target='posix'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'posix' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: None.
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='posix', target='posix'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'posix' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: None.
+import 'posixpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'fnmatch' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E867F7D70>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='bz2', target='bz2'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'bz2' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='bz2', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86850590>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\bz2.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\bz2.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='_compression', target='_compression'        
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: '_compression' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='_compression', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86850FB0>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_compression.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_compression.pyc'
+import '_compression' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86850FB0>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='_bz2', target='_bz2'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: '_bz2' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='_bz2', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000014E868392B0>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_bz2.pyd').
+# extension module '_bz2' loaded from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_bz2.pyd'
+# extension module '_bz2' executed from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_bz2.pyd'
+import '_bz2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000014E868392B0>
+import 'bz2' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86850590>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='lzma', target='lzma'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'lzma' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='lzma', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86850AD0>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\lzma.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\lzma.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='_lzma', target='_lzma'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: '_lzma' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='_lzma', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000014E864F6C10>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_lzma.pyd').
+# extension module '_lzma' loaded from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_lzma.pyd'
+# extension module '_lzma' executed from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_lzma.pyd'
+import '_lzma' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000014E864F6C10>
+import 'lzma' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86850AD0>
+import 'shutil' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E867F7470>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='threading', target='threading'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'threading' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='threading', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86850350>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\threading.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\threading.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='warnings', target='warnings'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'warnings' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='warnings', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86851EB0>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\warnings.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\warnings.pyc'
+import 'warnings' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86851EB0>
+import 'threading' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86850350>
+PyInstaller: running path finder hook for path: 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile'
+PyInstaller: hook succeeded
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\zipfile): find_spec: called with fullname='zipfile._path', target='zipfile._path'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\zipfile): find_spec: 'zipfile._path' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\zipfile): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\zipfile): find_spec: fallback finder returned spec: ModuleSpec(name='zipfile._path', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86853B30>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile\\_path\\__init__.pyc', submodule_search_locations=['C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile\\_path']).
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile\\_path\\__init__.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='pathlib', target='pathlib'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'pathlib' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='pathlib', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86853C50>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib\\__init__.pyc', submodule_search_locations=['C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib']).
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib\\__init__.pyc'
+PyInstaller: running path finder hook for path: 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib'
+PyInstaller: hook succeeded
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\pathlib): find_spec: called with fullname='pathlib._abc', target='pathlib._abc'PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\pathlib): find_spec: 'pathlib._abc' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\pathlib): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\pathlib): find_spec: fallback finder returned spec: ModuleSpec(name='pathlib._abc', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86890890>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib\\_abc.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib\\_abc.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='glob', target='glob'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'glob' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='glob', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86890590>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\glob.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\glob.pyc'
+import 'glob' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86890590>
+import 'pathlib._abc' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86890890>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\pathlib): find_spec: called with fullname='pathlib._local', target='pathlib._local'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\pathlib): find_spec: 'pathlib._local' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\pathlib): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\pathlib): find_spec: fallback finder returned spec: ModuleSpec(name='pathlib._local', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86892150>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib\\_local.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\pathlib\\_local.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='pwd', target='pwd'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'pwd' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: None.
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='grp', target='grp'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'grp' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: None.
+import 'pathlib._local' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86892150>
+import 'pathlib' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86853C50>
+PyInstaller: running path finder hook for path: 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile\\_path'
+PyInstaller: hook succeeded
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\zipfile\_path): find_spec: called with fullname='zipfile._path.glob', target='zipfile._path.glob'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\zipfile\_path): find_spec: 'zipfile._path.glob' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\zipfile\_path): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile\\_path').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122\zipfile\_path): find_spec: fallback finder returned spec: ModuleSpec(name='zipfile._path.glob', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E868535F0>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile\\_path\\glob.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\zipfile\\_path\\glob.pyc'
+import 'zipfile._path.glob' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E868535F0>
+import 'zipfile._path' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86853B30>
+import 'zipfile' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E861DE570>
+[PYI-11920:DEBUG] LOADER: running main.py
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='cv2', target='cv2'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'cv2' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: None.
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='traceback', target='traceback'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'traceback' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='traceback', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86852030>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\traceback.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\traceback.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='textwrap', target='textwrap'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: 'textwrap' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='textwrap', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86893410>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\textwrap.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\textwrap.pyc'
+import 'textwrap' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86893410>
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='_colorize', target='_colorize'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: '_colorize' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='_colorize', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86901370>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_colorize.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\_colorize.pyc'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: called with fullname='__future__', target='__future__'
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: '__future__' not found in PYZ...
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122').
+PyiFrozenFinder(C:\Users\patog\AppData\Local\Temp\_MEI137122): find_spec: fallback finder returned spec: ModuleSpec(name='__future__', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86900950>, origin='C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\__future__.pyc').
+# code object from 'C:\\Users\\patog\\AppData\\Local\\Temp\\_MEI137122\\__future__.pyc'
+import '__future__' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86900950>
+import '_colorize' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86901370>
+import 'traceback' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000014E86852030>
+Traceback (most recent call last):
+  File "main.py", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'cv2'
+[PYI-11920:ERROR] Failed to execute script 'main' due to unhandled exception!
+[PYI-11920:DEBUG] LOADER: ERROR.
+[PYI-11920:DEBUG] LOADER: manually flushing stdout and stderr...
+[PYI-11920:DEBUG] LOADER: cleaning up Python interpreter...
+# clear sys.path_importer_cache
+# clear sys.path_hooks
+# clear builtins._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.last_exc
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.__interactivehook__
+# clear sys.meta_path
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup[2] removing sys
+# cleanup[2] removing builtins
+# cleanup[2] removing _frozen_importlib
+# cleanup[2] removing _imp
+# cleanup[2] removing _thread
+# cleanup[2] removing _warnings
+# cleanup[2] removing _weakref
+# cleanup[2] removing winreg
+# cleanup[2] removing _io
+# cleanup[2] removing marshal
+# cleanup[2] removing nt
+# cleanup[2] removing _frozen_importlib_external
+# cleanup[2] removing time
+# cleanup[2] removing zipimport
+# destroy zipimport
+# cleanup[2] removing _codecs
+# cleanup[2] removing codecs
+# cleanup[2] removing encodings.aliases
+# cleanup[2] removing encodings
+# cleanup[2] removing encodings.utf_8
+# cleanup[2] removing encodings.cp1252
+# cleanup[2] removing _signal
+# cleanup[2] removing _abc
+# cleanup[2] removing abc
+# cleanup[2] removing io
+# cleanup[2] removing __main__
+# destroy __main__
+# cleanup[2] removing struct
+# cleanup[2] removing _struct
+# cleanup[2] removing pyimod01_archive
+# cleanup[2] removing _stat
+# cleanup[2] removing stat
+# cleanup[2] removing _collections_abc
+# cleanup[2] removing genericpath
+# cleanup[2] removing _winapi
+# cleanup[2] removing ntpath
+# cleanup[2] removing os.path
+# cleanup[2] removing os
+# cleanup[2] removing zlib
+# cleanup[2] removing pyimod02_importers
+# cleanup[2] removing pyimod03_ctypes
+# cleanup[2] removing pyimod04_pywin32
+# cleanup[2] removing collections.abc
+# cleanup[2] removing itertools
+# cleanup[2] removing keyword
+# destroy keyword
+# cleanup[2] removing _operator
+# cleanup[2] removing operator
+# cleanup[2] removing reprlib
+# destroy reprlib
+# cleanup[2] removing _collections
+# cleanup[2] removing collections
+# cleanup[2] removing _functools
+# cleanup[2] removing functools
+# cleanup[2] removing types
+# cleanup[2] removing enum
+# cleanup[2] removing _sre
+# cleanup[2] removing re._constants
+# cleanup[2] removing re._parser
+# cleanup[2] removing re._casefix
+# cleanup[2] removing re._compiler
+# cleanup[2] removing copyreg
+# cleanup[2] removing re
+# cleanup[2] removing _ast
+# destroy _ast
+# cleanup[2] removing contextlib
+# cleanup[2] removing ast
+# cleanup[2] removing _opcode
+# cleanup[2] removing _opcode_metadata
+# destroy _opcode_metadata
+# cleanup[2] removing opcode
+# destroy opcode
+# cleanup[2] removing dis
+# cleanup[2] removing importlib._bootstrap
+# cleanup[2] removing importlib._bootstrap_external
+# cleanup[2] removing importlib
+# cleanup[2] removing importlib.machinery
+# cleanup[2] removing linecache
+# cleanup[2] removing token
+# cleanup[2] removing _tokenize
+# cleanup[2] removing tokenize
+# cleanup[2] removing _weakrefset
+# destroy _weakrefset
+# cleanup[2] removing weakref
+# destroy weakref
+# cleanup[2] removing inspect
+# cleanup[2] removing binascii
+# cleanup[2] removing importlib._abc
+# cleanup[2] removing importlib.util
+# cleanup[2] removing errno
+# cleanup[2] removing posixpath
+# cleanup[2] removing fnmatch
+# cleanup[2] removing _compression
+# cleanup[2] removing _bz2
+# cleanup[2] removing bz2
+# cleanup[2] removing _lzma
+# cleanup[2] removing lzma
+# cleanup[2] removing shutil
+# cleanup[2] removing warnings
+# cleanup[2] removing threading
+# cleanup[2] removing glob
+# destroy glob
+# cleanup[2] removing pathlib._abc
+# cleanup[2] removing pathlib._local
+# cleanup[2] removing pathlib
+# cleanup[2] removing zipfile._path.glob
+# cleanup[2] removing zipfile._path
+# cleanup[2] removing zipfile
+# cleanup[2] removing textwrap
+# cleanup[2] removing __future__
+# destroy __future__
+# cleanup[2] removing _colorize
+# cleanup[2] removing traceback
+# destroy traceback
+# destroy _signal
+# destroy encodings
+# destroy _opcode
+# destroy importlib.machinery
+# destroy importlib._abc
+# destroy importlib.util
+# destroy _tokenize
+# destroy _bz2
+# destroy errno
+# destroy _lzma
+# destroy _compression
+# destroy pathlib._abc
+# destroy pathlib._local
+# destroy zipfile
+# destroy pathlib
+# destroy zipfile._path.glob
+# destroy contextlib
+# destroy fnmatch
+# destroy operator
+# destroy textwrap
+# destroy warnings
+# destroy _colorize
+# destroy posixpath
+# destroy ast
+# destroy dis
+# destroy collections
+# destroy linecache
+# destroy tokenize
+# destroy token
+# destroy types
+# destroy inspect
+# destroy binascii
+# destroy importlib
+# destroy shutil
+# destroy threading
+# destroy time
+# destroy bz2
+# destroy lzma
+# destroy zipfile._path
+# cleanup[3] wiping importlib._bootstrap_external
+# cleanup[3] wiping importlib._bootstrap
+# destroy _frozen_importlib_external
+# cleanup[3] wiping re
+# destroy re._constants
+# destroy re._casefix
+# destroy re._compiler
+# destroy enum
+# destroy functools
+# destroy copyreg
+# cleanup[3] wiping re._parser
+# cleanup[3] wiping _sre
+# cleanup[3] wiping _functools
+# cleanup[3] wiping _collections
+# cleanup[3] wiping _operator
+# cleanup[3] wiping itertools
+# cleanup[3] wiping collections.abc
+# cleanup[3] wiping pyimod04_pywin32
+# cleanup[3] wiping pyimod03_ctypes
+# cleanup[3] wiping pyimod02_importers
+# destroy io
+# cleanup[3] wiping zlib
+# cleanup[3] wiping os
+# destroy ntpath
+# cleanup[3] wiping _winapi
+# cleanup[3] wiping genericpath
+# destroy stat
+# cleanup[3] wiping _collections_abc
+# cleanup[3] wiping _stat
+# destroy _stat
+# cleanup[3] wiping pyimod01_archive
+# cleanup[3] wiping _struct
+# cleanup[3] wiping struct
+# cleanup[3] wiping abc
+# cleanup[3] wiping _abc
+# cleanup[3] wiping encodings.cp1252
+# cleanup[3] wiping encodings.utf_8
+# cleanup[3] wiping encodings.aliases
+# cleanup[3] wiping codecs
+# cleanup[3] wiping _codecs
+# cleanup[3] wiping nt
+# cleanup[3] wiping marshal
+# destroy marshal
+# cleanup[3] wiping _io
+# cleanup[3] wiping winreg
+# cleanup[3] wiping _weakref
+# cleanup[3] wiping _warnings
+# destroy _warnings
+# cleanup[3] wiping _thread
+# cleanup[3] wiping _imp
+# destroy _imp
+# cleanup[3] wiping _frozen_importlib
+# cleanup[3] wiping sys
+# cleanup[3] wiping builtins
+# destroy sys.monitoring
+# destroy _struct
+# destroy zlib
+# destroy _io
+# destroy genericpath
+# destroy nt
+# destroy winreg
+# destroy re._parser
+# destroy _winapi
+# clear sys.meta_path
+# clear sys.modules
+# destroy _frozen_importlib
+# destroy codecs
+# destroy encodings.aliases
+# destroy encodings.utf_8
+# destroy encodings.cp1252
+# destroy re
+# destroy abc
+# destroy os
+# destroy _sre
+# destroy _abc
+# destroy sys
+# destroy _collections_abc
+# destroy _weakref
+# destroy _collections
+# destroy builtins
+# destroy itertools
+# destroy _operator
+# destroy _codecs
+# destroy _functools
+# destroy _thread
+# clear sys.audit hooks
+[PYI-11920:DEBUG] LOADER: unloading Python shared library...
+[PYI-11920:DEBUG] LOADER: end of process reached!
+[PYI-13712:DEBUG] LOADER: child process has finished - exiting the wait loop!
+[PYI-13712:DEBUG] LOADER: made it out of the waiting loop!
+[PYI-13712:DEBUG] LOADER: waiting 250 ms in case we receive WM_QUERYENDSESSION...
+[PYI-13712:DEBUG] LOADER: waited 54 ms / 250 ms...
+[PYI-13712:DEBUG] LOADER: waited 115 ms / 250 ms...
+[PYI-13712:DEBUG] LOADER: waited 178 ms / 250 ms...
+[PYI-13712:DEBUG] LOADER: waited 239 ms / 250 ms...
+[PYI-13712:DEBUG] LOADER: waited 302 ms / 250 ms...
+[PYI-13712:DEBUG] LOADER: done waiting for WM_QUERYENDSESSION - timed-out!
+[PYI-13712:DEBUG] LOADER: retrieving process exit code and performing cleanup...
+[PYI-13712:DEBUG] LOADER: child process exited (return code: 1)
+[PYI-13712:DEBUG] LOADER: performing cleanup...
+[PYI-13712:DEBUG] LOADER: removing temporary directory: C:\Users\patog\AppData\Local\Temp\_MEI137122
+[PYI-13712:DEBUG] LOADER: temporary directory C:\Users\patog\AppData\Local\Temp\_MEI137122 was successfully removed.
+[PYI-13712:DEBUG] LOADER: end of process reached!

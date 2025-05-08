@@ -5,6 +5,8 @@ import numpy as np
 import threading
 import pygame
 
+import sys
+print(sys.prefix)
 
 def calculate_angle(a, b, c):
     a = np.array(a)  # First
@@ -22,7 +24,13 @@ def calculate_angle(a, b, c):
 # Initialize pygame mixer
 pygame.mixer.init()
 # Load sound
-pygame.mixer.music.load("go_lower.mp3")
+import os
+
+# Get the directory of the script or executable
+base_dir = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+
+# Load the sound file
+pygame.mixer.music.load(os.path.join(base_dir, "go_lower.mp3"))
 
 def must_go_lower():
     print("Must go lower!")
