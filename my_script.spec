@@ -25,7 +25,7 @@ exe = EXE(
     pyz,
     a.scripts,
     [],
-    exclude_binaries=False,
+    exclude_binaries=True,
     name='my_script',
     debug=False,
     bootloader_ignore_signals=False,
@@ -38,12 +38,12 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
 )
-#coll = COLLECT(
-#    exe,
-#    a.binaries,
-#    a.datas,
-#    strip=False,
-#    upx=True,
-#    upx_exclude=[],
-#    name='my_script',
-#)
+coll = COLLECT(
+    exe,
+    a.binaries,
+    a.datas,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    name='my_script',
+)

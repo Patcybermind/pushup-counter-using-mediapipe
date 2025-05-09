@@ -63,7 +63,7 @@
    'folder\\my_script.py',
    'PYSOURCE')],
  'python312.dll',
- False,
+ True,
  False,
  False,
  [],
