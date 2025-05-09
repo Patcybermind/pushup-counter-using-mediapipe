@@ -9,4 +9,4 @@ you need a webcam or a virtual camera
 3. run: python3 main.py 
 
 ## demo
-https://hc-cdn.hel1.your-objectstorage.com/s/v3/e0a2a3306caee87d22796265fe2e6fdeea8ba38b_2025-04-20_17-08-39.mp4
+[https://www.youtube.com/watch?v=ZeLMqBn9pNY](https://www.youtube.com/watch?v=ZeLMqBn9pNY)
